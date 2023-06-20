@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calcular Score AppTEV</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="header">
+                <p class="label"><a class="a-href" href="#etapa1">Proposta</a></p>
+                <p class="label"><a class="a-href" href="#etapa2">Benefícios</a></p>
+                <p class="label"><a class="a-href" href="#etapa3">Formulário</a></p>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="etapa1" class="container-fluid" style="--bs-gutter-x: 0;">
+        <div class="step-container first-background">
+            <div class="container">
+                <div class="banner">
+                    <div class="overlay">
+                        <div class="content">
+                            <h2>Nós entendemos as necessidades dos médicos e profissionais de saúde que utilizam o
+                                AppTEV.</h2>
+                            <p>Recebemos feedbacks sobre a impossibilidade de baixar o aplicativo em notebooks e a
+                                dificuldade de extrair os resultados dos scores para anexar aos prontuários dos
+                                pacientes. Por isso, desenvolvemos o AppTEV Plus, uma versão aprimorada e otimizada do
+                                aplicativo, com recursos adicionais que tornam a ferramenta mais efetiva e acessível.
+                            </p>
+                            <p>Com o AppTEV Plus, você agora pode utilizar a plataforma em computadores, permitindo uma
+                                experiência mais conveniente e prática. Isso significa que você pode acessar e realizar
+                                avaliações de risco de tromboembolismo venoso de forma simples e intuitiva, diretamente
+                                em seu dispositivo de trabalho.</p>
+                            <p>Além disso, a integração dos resultados dos scores com os prontuários dos pacientes é uma
+                                funcionalidade fundamental do AppTEV Plus. Agora, você pode extrair facilmente os
+                                resultados dos cálculos de dose de Enoxaparina realizados no aplicativo e anexá-los de
+                                forma automatizada ao prontuário eletrônico. Essa integração aprimorada proporciona
+                                maior eficiência no registro e acompanhamento dos pacientes, garantindo a precisão e o
+                                acesso rápido às informações essenciais.</p>
+                            <p>Estamos comprometidos em fornecer as melhores soluções para os profissionais de saúde.
+                                Com o AppTEV Plus, você terá a combinação ideal de praticidade, precisão e efetividade
+                                em suas avaliações de risco de Tromboembolismo Venoso. Aproveite a nova experiência do
+                                AppTEV Plus e simplifique sua prática médica.</p>
+                            <p>Experimente o AppTEV Plus hoje mesmo e descubra como otimizar o seu trabalho e melhorar o
+                                atendimento aos pacientes. Estamos ansiosos para ajudá-lo a tornar sua prática médica
+                                ainda mais eficiente e de alta qualidade.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="etapa2" class="container-fluid" style="--bs-gutter-x: 0;">
+        <div class="step-container second-background">
+            <div class="benefits-section">
+                <h2>Benefícios do AppTEV Plus</h2>
+                <ul>
+                    <li>
+                        <h3>Acesso em computadores</h3>
+                        <p>Agora você pode utilizar a plataforma do AppTEV Plus em seus computadores, proporcionando
+                            maior comodidade e praticidade. Realize avaliações de risco de tromboembolismo venoso de
+                            forma simples e intuitiva, diretamente em seu dispositivo de trabalho.</p>
+                    </li>
+                    <li>
+                        <h3>Integração com prontuários eletrônicos</h3>
+                        <p>Uma funcionalidade fundamental do AppTEV Plus é a integração dos resultados dos scores com os
+                            prontuários dos pacientes. Extraia facilmente os resultados dos cálculos de dose de
+                            Enoxaparina realizados no aplicativo e anexe-os de forma automatizada ao prontuário
+                            eletrônico. Essa integração aprimorada oferece maior eficiência no registro e acompanhamento
+                            dos pacientes, garantindo a precisão e o acesso rápido às informações essenciais.</p>
+                    </li>
+                    <li>
+                        <h3>Praticidade e efetividade</h3>
+                        <p>O AppTEV Plus foi projetado para fornecer a combinação ideal de praticidade, precisão e
+                            efetividade em suas avaliações de risco de Tromboembolismo Venoso. Aproveite a nova
+                            experiência oferecida pela versão aprimorada e simplifique sua prática médica.</p>
+                    </li>
+                    <li>
+                        <h3>Melhoria no atendimento aos pacientes</h3>
+                        <p>Com o AppTEV Plus, você poderá otimizar seu trabalho e aprimorar o atendimento aos seus
+                            pacientes. Essa ferramenta poderosa oferece recursos adicionais que tornam a avaliação de
+                            risco mais precisa e eficiente, proporcionando uma prática médica de alta qualidade.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="etapa3" class="container-fluid" style="--bs-gutter-x: 0;">
+        <div class="step-container">
+            <h2>Formulário de cadastro:</h2>
+            <div class="form">
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="col-auto">
+                        <label for="age">Idade:</label>
+                        <input type="number" id="age" name="age" class="form-control age-input" required>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="headache">Dor de Cabeça:</label>
+                        <select id="headache" name="headache" class="form-select" required>
+                            <option value="">Selecione</option>
+                            <option value="yes">Sim</option>
+                            <option value="no">Não</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="stomachPain">Dor de Barriga:</label>
+                        <select id="stomachPain" name="stomachPain" class="form-select" required>
+                            <option value="">Selecione</option>
+                            <option value="yes">Sim</option>
+                            <option value="no">Não</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="earPain">Dor de Ouvido:</label>
+                        <select id="earPain" name="earPain" class="form-select" required>
+                            <option value="">Selecione</option>
+                            <option value="yes">Sim</option>
+                            <option value="no">Não</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="backPain">Dor nas Costas:</label>
+                        <select id="backPain" name="backPain" class="form-select" required>
+                            <option value="">Selecione</option>
+                            <option value="yes">Sim</option>
+                            <option value="no">Não</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="musclePain">Dores Musculares:</label>
+                        <select id="musclePain" name="musclePain" class="form-select" required>
+                            <option value="">Selecione</option>
+                            <option value="yes">Sim</option>
+                            <option value="no">Não</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="anxiety">Ansiedade:</label>
+                        <select id="anxiety" name="anxiety" class="form-select" required>
+                            <option value="">Selecione</option>
+                            <option value="yes">Sim</option>
+                            <option value="no">Não</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="physicalActivity">Pratica Atividade Física:</label>
+                    <select id="physicalActivity" name="physicalActivity" class="form-select" required>
+                        <option value="">Selecione</option>
+                        <option value="yes">Sim</option>
+                        <option value="no">Não</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="weeklyFrequency">Frequência Semanal de Atividade Física:</label>
+                    <select id="weeklyFrequency" name="weeklyFrequency" class="form-select" required>
+                        <option value="">Selecione</option>
+                        <option value="1-2">1-2 vezes</option>
+                        <option value="3-5">3-5 vezes</option>
+                        <option value="6+">6 ou mais vezes</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="familyCardiacIssues">Parentes com Problemas Cardíacos:</label>
+                    <select id="familyCardiacIssues" name="familyCardiacIssues" class="form-select" required>
+                        <option value="">Selecione</option>
+                        <option value="yes">Sim</option>
+                        <option value="no">Não</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="familyCancer">Parentes Diagnosticados com Câncer:</label>
+                    <select id="familyCancer" name="familyCancer" class="form-select" required>
+                        <option value="">Selecione</option>
+                        <option value="yes">Sim</option>
+                        <option value="no">Não</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="cancerType">Se sim, qual o tipo de câncer?</label>
+                    <select id="cancerType" name="cancerType" class="form-select" required>
+                        <option value="">Selecione</option>
+                        <option value="breast">Câncer de Mama</option>
+                        <option value="lung">Câncer de Pulmão</option>
+                        <option value="prostate">Câncer de Próstata</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-success-w">Calcular Score</button>
+            </div>
+        </div>
+    </div>
+
+    <button id="scrollToTopButton" onclick="scrollToTop()">
+        <img class="arrow-up" src="./images/chevron-up-outline.svg" alt="">
+    </button>
+
+    <div class="modal fade" id="scoreModal" tabindex="-1" aria-labelledby="scoreModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="scoreModalLabel">Score</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O seu score é: <span id="scoreValue"></span></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js"></script>
+<script src="./form.js"></script>

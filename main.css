@@ -1,0 +1,207 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.step-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.step-container h2 {
+    margin-bottom: 20px;
+}
+
+.step-container p {
+    margin-bottom: 10px;
+}
+
+.form {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form .form-group {
+    margin-bottom: 10px;
+}
+
+.form .age-input {
+    max-width: 150px;
+}
+
+.form .btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.step-container.first-background {
+    position: relative;
+    background-image: url('./images/topsphere-media-WxRd7byFxs4-unsplash.jpeg');
+    background-size: cover;
+}
+
+.step-container.second-background {
+    position: relative;
+    background-image: url('./images/sander-sammy-38Un6Oi5beE-unsplash.jpeg');
+    background-size: cover;
+}
+
+.step-container.first-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./images/topsphere-media-WxRd7byFxs4-unsplash.jpeg');
+    background-size: cover;
+    filter: blur(8px);
+    /* Adiciona o efeito de borrão */
+    z-index: -1;
+}
+
+.container {
+    position: relative;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Cor do fundo semi-transparente */
+}
+
+.content {
+    max-width: 800px;
+    text-align: center;
+    color: #000;
+    background: #d3d3d396;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.benefits-section {
+    width: 80vw;
+    max-width: 80vw;
+    text-align: center;
+    color: #000;
+    background: #ffffffc7;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.benefits-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.benefits-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.benefits-section li {
+    margin-bottom: 30px;
+}
+
+.benefits-section h3 {
+    color: #007bff;
+}
+
+.benefits-section p {
+    color: #555;
+}
+
+.btn-success-w {
+    width: 85% !important;
+    margin-top: 30px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+}
+
+.label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.label::after {
+    color: #007bff;
+}
+
+.a-href {
+    text-decoration: none;
+    color: #000;
+}
+
+#scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+  
+  #scrollToTopButton.show {
+    display: block;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    background: #6fd33f;
+  }
+
+  .arrow-up {
+    width: 25px;
+    height: 25px;
+  }
